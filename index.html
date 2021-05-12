@@ -1,0 +1,22 @@
+<html>
+
+<title>
+Calculator
+</title>
+<body>
+    <script src="calculator.js" type="text/javascript"></script>
+
+    <input id = "inputText"type="text" disabled value = "0"><br>
+
+    <button onclick="addToText(1)">1</button><button onclick="addToText(2)">2</button><button onclick="addToText(3)">3</button><br>
+    <button onclick="addToText(4)">4</button><button onclick="addToText(5)">5</button><button onclick="addToText(6)">6</button><br>
+    <button onclick="addToText(7)">7</button><button onclick="addToText(8)">8</button><button onclick="addToText(9)">9</button><br>
+    <button onclick="addToText(0)">0</button><button onclick = "operatorInput('+')">+</button><button onclick = "operatorInput('-')">-</button><br>
+    <button onclick = "operatorInput('/')">/</button><button onclick = "operatorInput('*')">*</button><button onclick = "operatorInput('%')">%</button><br>
+    <button onclick="Equals()">=</button><br>
+
+</body>
+
+<Label>HISTORY</Label>
+<p id="historyText"></p>
+</html>
