@@ -1,0 +1,50 @@
+#equals
+{
+    width: 100px;
+    
+
+
+}
+button
+{
+    height: 50px;
+    width: 50px;
+    background-color: beige;
+
+}
+#sign1
+{
+    align-items: center;
+    background-color: black;
+    width: 500px;
+    border-left: 500px;
+    display: inline-block;
+}
+#sign2
+{
+    align-items: center;
+    background-color: black;
+
+
+}
+body
+{
+    text-align: center;
+    background-color: blue;
+}
+#historyLabel
+{
+    font-size: 100px;
+    color: white;
+
+}
+#inputText
+{
+    background-color: black;
+    color: white;
+
+}
+#historyText
+{
+    color:white;
+}
